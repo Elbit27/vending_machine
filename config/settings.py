@@ -25,6 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # inst_apps
+    'rest_framework',   # будем использовать готовые шаблоны DRF
     # my_apps
     'product',
 ]
