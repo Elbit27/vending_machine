@@ -23,6 +23,15 @@ TODO list:
 	3.2. creating api ✅
 	3.3. updating and deleting apis ✅
 
-4. buying api
+4. buying api✅
+
+	4.1. start buying app ✅
+	4.2. models ✅
+	4.3. create api and set urls ✅
+	4.4. tests ✅ 
+	
 5. clean code
 6. pagination and docs
+
+
+

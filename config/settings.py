@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'rest_framework',   # будем использовать готовые шаблоны DRF
     # my_apps
     'product',
+    'purchase',
 ]
 
 MIDDLEWARE = [
