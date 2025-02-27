@@ -68,7 +68,7 @@ class PurchaseAPITestCase(APITestCase):
 
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
         self.assertIn("non_field_errors", response.data)
-        self.assertEqual(response.data["non_field_errors"][0], "Недостаточно средств для покупки товара coca-cola.")
+        self.assertEqual(response.data["non_field_errors"][0], "Недостаточно средств для покупки товара coca-cola. Товар coca-cola стоит 50.00 сом.")
 
     def test_product_out_of_stock(self):
         """Тест ошибки, когда товара нет в наличии"""

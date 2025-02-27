@@ -16,7 +16,8 @@ class PurchaseSerializer(serializers.ModelSerializer):
         if product.amount == 0:   # Проверяем, есть ли продукт в наличии
             raise serializers.ValidationError(f'Продукта под именем {product.name.lower()}, нет в наличии!.')
         if product.price > pay:   # Проверяем, хватает ли денег на покупку
-            raise serializers.ValidationError(f'Недостаточно средств для покупки товара {product.name.lower()}.')
+            raise serializers.ValidationError(f'Недостаточно средств для покупки товара {product.name.lower()}. ' 
+                                              f'Товар {product.name.lower()} стоит {product.price} сом.')
         return data
 
     def create(self, validated_data):

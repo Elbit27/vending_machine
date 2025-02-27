@@ -1,7 +1,7 @@
 Тестовое задание на позицию Intern в компанию Kompanion
 
 start: Feb 26 17:58
-end: unknown 
+end: Feb 27 15:29
 
 TODO list:
 
@@ -35,8 +35,4 @@ TODO list:
 	5.1. pagination for product listing ✅
 	5.2. docs by using drf-yasg ✅
 
-6. clean code
-
-
-
-
+6. clean code ✅
