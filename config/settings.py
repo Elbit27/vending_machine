@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # inst_apps
     'rest_framework',   # будем использовать готовые шаблоны DRF
+    'drf_yasg',
     # my_apps
     'product',
     'purchase',

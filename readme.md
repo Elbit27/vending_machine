@@ -30,8 +30,13 @@ TODO list:
 	4.3. create api and set urls ✅
 	4.4. tests ✅ 
 	
-5. clean code
-6. pagination and docs
+5. pagination and docs ✅
+
+	5.1. pagination for product listing ✅
+	5.2. docs by using drf-yasg ✅
+
+6. clean code
+
 
 
 
